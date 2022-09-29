@@ -23,10 +23,10 @@ filepath() {
     [[ $1 = /* ]] && echo "$1" || echo "$PWD/${1#./}"
 }
 
-SWIFT_PACKETPROTOCOL_ROOT="$(dirname $(dirname $(filepath $0)))"
+PACKETPROTOCOL_ROOT="$(dirname $(dirname $(filepath $0)))"
 
 # Set current directory to the repository root
-cd "$SWIFT_PACKETPROTOCOL_ROOT"
+cd "$PACKETPROTOCOL_ROOT"
 
 # Use git worktree to checkout the gh-pages branch of this repository in a gh-pages sub-directory
 git fetch
@@ -38,13 +38,12 @@ export DOCC_JSON_PRETTYPRINT="YES"
 # Generate documentation for the 'PacketProtocol' target and output it
 # to the /docs subdirectory in the gh-pages worktree directory.
 swift package \
-    --allow-writing-to-directory "$SWIFT_PACKETPROTOCOL_ROOT/gh-pages/docs" \
+    --allow-writing-to-directory "$PACKETPROTOCOL_ROOT/gh-pages/docs" \
     generate-documentation \
     --target PacketProtocol \
     --disable-indexing \
-    --transform-for-static-hosting \
     --hosting-base-path swift-markdown \
-    --output-path "$SWIFT_PACKETPROTOCOL_ROOT/gh-pages/docs"
+    --output-path "$PACKETPROTOCOL_ROOT/gh-pages/docs"
 
 # Save the current commit we've just built documentation from in a variable
 CURRENT_COMMIT_HASH=`git rev-parse --short HEAD`
