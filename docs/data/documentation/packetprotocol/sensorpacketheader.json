@@ -916,7 +916,10 @@
 },
 "doc://PacketProtocol/documentation/PacketProtocol/SensorPacketHeader/timeStamp": {
   "abstract" : [
-
+    {
+      "text" : "in miliseconds since 1970",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

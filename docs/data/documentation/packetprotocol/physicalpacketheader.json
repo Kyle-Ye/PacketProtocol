@@ -531,7 +531,23 @@
 },
 "doc://PacketProtocol/documentation/PacketProtocol/PhysicalPacketHeader/dataProperty": {
   "abstract" : [
-
+    {
+      "text" : "bit 0",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "9 for data type, bit 10",
+          "type" : "text"
+        }
+      ],
+      "type" : "strikethrough"
+    },
+    {
+      "text" : "21 for data duration in seconds, bit 22~31 for data length in bytes",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -719,7 +735,10 @@
 },
 "doc://PacketProtocol/documentation/PacketProtocol/PhysicalPacketHeader/timeStamp": {
   "abstract" : [
-
+    {
+      "text" : "in seconds since 1970",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

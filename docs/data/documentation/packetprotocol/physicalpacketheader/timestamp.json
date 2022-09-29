@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "in seconds since 1970",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -175,7 +181,10 @@
 },
 "doc://PacketProtocol/documentation/PacketProtocol/PhysicalPacketHeader/timeStamp": {
   "abstract" : [
-
+    {
+      "text" : "in seconds since 1970",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
