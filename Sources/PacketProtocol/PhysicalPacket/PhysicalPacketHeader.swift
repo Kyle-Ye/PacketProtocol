@@ -59,7 +59,7 @@ extension PhysicalPacketHeader {
 // MARK: - Time Stamp
 
 extension PhysicalPacketHeader {
-    // in seconds since 1970
+    /// in seconds since 1970
     public var timeStamp: UInt32 {
         (UInt32(_timeStamp2) << 16) | UInt32(_timeStamp1)
     }
@@ -72,7 +72,7 @@ extension PhysicalPacketHeader {
 // MARK: - Data Property
 
 extension PhysicalPacketHeader {
-    // bit 0~9 for data type, bit 10~21 for data duration in seconds, bit 22~31 for data length in bytes
+    /// bit 0~9 for data type, bit 10~21 for data duration in seconds, bit 22~31 for data length in bytes
     public var dataProperty: UInt32 {
         (UInt32(_dataProperty2) << 16) | UInt32(_dataProperty1)
     }

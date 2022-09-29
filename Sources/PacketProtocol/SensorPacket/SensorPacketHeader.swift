@@ -90,7 +90,7 @@ extension SensorPacketHeader {
 // MARK: - Time Stamp
 
 extension SensorPacketHeader {
-    // in miliseconds since 1970
+    /// in miliseconds since 1970
     public var timeStamp: UInt64 {
         (UInt64(_timeStamp2) << 32) | UInt64(_timeStamp1)
     }
