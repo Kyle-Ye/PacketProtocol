@@ -1,0 +1,203 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/PacketProtocol\/documentation\/PacketProtocol",
+        "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/SensorPacketHeader",
+        "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/SensorPacketHeader\/FlagOptions"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/SensorPacketHeader\/FlagOptions\/Equatable-Implementations"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "PacketProtocol"
+      }
+    ],
+    "role" : "collectionGroup",
+    "title" : "Equatable Implementations"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/SensorPacketHeader\/FlagOptions\/!=(_:_:)"
+      ],
+      "title" : "Operators"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/packetprotocol\/sensorpacketheader\/flagoptions\/equatable-implementations"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://PacketProtocol/documentation/PacketProtocol": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/PacketProtocol\/documentation\/PacketProtocol",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "PacketProtocol",
+  "type" : "topic",
+  "url" : "\/documentation\/packetprotocol"
+},
+"doc://PacketProtocol/documentation/PacketProtocol/SensorPacketHeader": {
+  "abstract" : [
+    {
+      "text" : "The Sensor Packet Header",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "20 bytes in total",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SensorPacketHeader"
+    }
+  ],
+  "identifier" : "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/SensorPacketHeader",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SensorPacketHeader"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SensorPacketHeader",
+  "type" : "topic",
+  "url" : "\/documentation\/packetprotocol\/sensorpacketheader"
+},
+"doc://PacketProtocol/documentation/PacketProtocol/SensorPacketHeader/FlagOptions": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FlagOptions"
+    }
+  ],
+  "identifier" : "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/SensorPacketHeader\/FlagOptions",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FlagOptions"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SensorPacketHeader.FlagOptions",
+  "type" : "topic",
+  "url" : "\/documentation\/packetprotocol\/sensorpacketheader\/flagoptions"
+},
+"doc://PacketProtocol/documentation/PacketProtocol/SensorPacketHeader/FlagOptions/!=(_:_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "!="
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/SensorPacketHeader\/FlagOptions\/!=(_:_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "!=(_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/packetprotocol\/sensorpacketheader\/flagoptions\/!=(_:_:)"
+}
+}
+}

@@ -1,0 +1,313 @@
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "SetAlgebra.isSuperset(of:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/PacketProtocol\/documentation\/PacketProtocol",
+        "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/PhysicalPacketHeader",
+        "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/PhysicalPacketHeader\/FlagOptions",
+        "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/PhysicalPacketHeader\/FlagOptions\/SetAlgebra-Implementations"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/PhysicalPacketHeader\/FlagOptions\/isSuperset(of:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "Swift",
+    "externalID" : "s:s10SetAlgebraPsE10isSuperset2ofSbx_tF::SYNTHESIZED::s:14PacketProtocol08PhysicalA6HeaderV11FlagOptionsV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "isSuperset"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "of"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "Self"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "PacketProtocol"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "isSuperset(of:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "isSuperset"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "of"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "other"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Self"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/packetprotocol\/physicalpacketheader\/flagoptions\/issuperset(of:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://PacketProtocol/documentation/PacketProtocol": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/PacketProtocol\/documentation\/PacketProtocol",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "PacketProtocol",
+  "type" : "topic",
+  "url" : "\/documentation\/packetprotocol"
+},
+"doc://PacketProtocol/documentation/PacketProtocol/PhysicalPacketHeader": {
+  "abstract" : [
+    {
+      "text" : "The Physical Packet Header",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "10 bytes \/ 80 bits in total",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PhysicalPacketHeader"
+    }
+  ],
+  "identifier" : "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/PhysicalPacketHeader",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PhysicalPacketHeader"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PhysicalPacketHeader",
+  "type" : "topic",
+  "url" : "\/documentation\/packetprotocol\/physicalpacketheader"
+},
+"doc://PacketProtocol/documentation/PacketProtocol/PhysicalPacketHeader/FlagOptions": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FlagOptions"
+    }
+  ],
+  "identifier" : "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/PhysicalPacketHeader\/FlagOptions",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FlagOptions"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PhysicalPacketHeader.FlagOptions",
+  "type" : "topic",
+  "url" : "\/documentation\/packetprotocol\/physicalpacketheader\/flagoptions"
+},
+"doc://PacketProtocol/documentation/PacketProtocol/PhysicalPacketHeader/FlagOptions/SetAlgebra-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/PhysicalPacketHeader\/FlagOptions\/SetAlgebra-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "SetAlgebra Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/packetprotocol\/physicalpacketheader\/flagoptions\/setalgebra-implementations"
+},
+"doc://PacketProtocol/documentation/PacketProtocol/PhysicalPacketHeader/FlagOptions/isSuperset(of:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "isSuperset"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "of"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/PhysicalPacketHeader\/FlagOptions\/isSuperset(of:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "isSuperset(of:)",
+  "type" : "topic",
+  "url" : "\/documentation\/packetprotocol\/physicalpacketheader\/flagoptions\/issuperset(of:)"
+}
+}
+}

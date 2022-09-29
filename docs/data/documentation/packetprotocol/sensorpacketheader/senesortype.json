@@ -1,0 +1,230 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/PacketProtocol\/documentation\/PacketProtocol",
+        "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/SensorPacketHeader"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/SensorPacketHeader\/senesorType"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:14PacketProtocol06SensorA6HeaderV11senesorTypes5UInt8Vvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "senesorType"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:14PacketProtocol10SensorTypea",
+        "text" : "SensorType"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "PacketProtocol"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "senesorType"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "senesorType"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/SensorType",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:14PacketProtocol10SensorTypea",
+              "text" : "SensorType"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/packetprotocol\/sensorpacketheader\/senesortype"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://PacketProtocol/documentation/PacketProtocol": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/PacketProtocol\/documentation\/PacketProtocol",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "PacketProtocol",
+  "type" : "topic",
+  "url" : "\/documentation\/packetprotocol"
+},
+"doc://PacketProtocol/documentation/PacketProtocol/SensorPacketHeader": {
+  "abstract" : [
+    {
+      "text" : "The Sensor Packet Header",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "20 bytes in total",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SensorPacketHeader"
+    }
+  ],
+  "identifier" : "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/SensorPacketHeader",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SensorPacketHeader"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SensorPacketHeader",
+  "type" : "topic",
+  "url" : "\/documentation\/packetprotocol\/sensorpacketheader"
+},
+"doc://PacketProtocol/documentation/PacketProtocol/SensorPacketHeader/senesorType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "senesorType"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14PacketProtocol10SensorTypea",
+      "text" : "SensorType"
+    }
+  ],
+  "identifier" : "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/SensorPacketHeader\/senesorType",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "senesorType",
+  "type" : "topic",
+  "url" : "\/documentation\/packetprotocol\/sensorpacketheader\/senesortype"
+},
+"doc://PacketProtocol/documentation/PacketProtocol/SensorType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SensorType"
+    }
+  ],
+  "identifier" : "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/SensorType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SensorType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SensorType",
+  "type" : "topic",
+  "url" : "\/documentation\/packetprotocol\/sensortype"
+}
+}
+}

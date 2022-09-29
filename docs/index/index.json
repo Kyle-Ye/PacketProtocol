@@ -1,0 +1,970 @@
+{
+  "interfaceLanguages" : {
+    "swift" : [
+      {
+        "children" : [
+          {
+            "title" : "Classes",
+            "type" : "groupMarker"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Type Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/packetprotocol\/packetprotocol\/process(at:sensorcompletion:physicalcompletion:)",
+                "title" : "static func process(at: String, sensorCompletion: (SensorPacketHeader, [Data]) -> Void, physicalCompletion: (PhysicalPacketHeader, [Data]) -> Void) -> Bool",
+                "type" : "method"
+              }
+            ],
+            "path" : "\/documentation\/packetprotocol\/packetprotocol",
+            "title" : "PacketProtocol",
+            "type" : "class"
+          },
+          {
+            "title" : "Structures",
+            "type" : "groupMarker"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Structures",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Initializers",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/flagoptions\/init(rawvalue:)",
+                    "title" : "init(rawValue: UInt8)",
+                    "type" : "init"
+                  },
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/flagoptions\/rawvalue",
+                    "title" : "let rawValue: UInt8",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/flagoptions\/description",
+                        "title" : "var description: String",
+                        "type" : "property"
+                      }
+                    ],
+                    "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/flagoptions\/customstringconvertible-implementations",
+                    "title" : "CustomStringConvertible Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Operators",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/flagoptions\/!=(_:_:)",
+                        "title" : "static func != (Self, Self) -> Bool",
+                        "type" : "op"
+                      }
+                    ],
+                    "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/flagoptions\/equatable-implementations",
+                    "title" : "Equatable Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/flagoptions\/init()",
+                        "title" : "init()",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/flagoptions\/contains(_:)",
+                        "title" : "func contains(Self) -> Bool",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/flagoptions\/formintersection(_:)",
+                        "title" : "func formIntersection(Self)",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/flagoptions\/formsymmetricdifference(_:)",
+                        "title" : "func formSymmetricDifference(Self)",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/flagoptions\/formunion(_:)",
+                        "title" : "func formUnion(Self)",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/flagoptions\/insert(_:)",
+                        "title" : "func insert(Self.Element) -> (inserted: Bool, memberAfterInsert: Self.Element)",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/flagoptions\/intersection(_:)",
+                        "title" : "func intersection(Self) -> Self",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/flagoptions\/remove(_:)",
+                        "title" : "func remove(Self.Element) -> Self.Element?",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/flagoptions\/symmetricdifference(_:)",
+                        "title" : "func symmetricDifference(Self) -> Self",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/flagoptions\/union(_:)",
+                        "title" : "func union(Self) -> Self",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/flagoptions\/update(with:)",
+                        "title" : "func update(with: Self.Element) -> Self.Element?",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/flagoptions\/optionset-implementations",
+                    "title" : "OptionSet Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/flagoptions\/init(_:)",
+                        "title" : "init<S>(S)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/flagoptions\/init(arrayliteral:)",
+                        "title" : "init(arrayLiteral: Self.Element...)",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/flagoptions\/isempty",
+                        "title" : "var isEmpty: Bool",
+                        "type" : "property"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/flagoptions\/isdisjoint(with:)",
+                        "title" : "func isDisjoint(with: Self) -> Bool",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/flagoptions\/isstrictsubset(of:)",
+                        "title" : "func isStrictSubset(of: Self) -> Bool",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/flagoptions\/isstrictsuperset(of:)",
+                        "title" : "func isStrictSuperset(of: Self) -> Bool",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/flagoptions\/issubset(of:)",
+                        "title" : "func isSubset(of: Self) -> Bool",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/flagoptions\/issuperset(of:)",
+                        "title" : "func isSuperset(of: Self) -> Bool",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/flagoptions\/subtract(_:)",
+                        "title" : "func subtract(Self)",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/flagoptions\/subtracting(_:)",
+                        "title" : "func subtracting(Self) -> Self",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/flagoptions\/setalgebra-implementations",
+                    "title" : "SetAlgebra Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/flagoptions",
+                "title" : "PhysicalPacketHeader.FlagOptions",
+                "type" : "struct"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Initializers",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/typeoptions\/init(rawvalue:)",
+                    "title" : "init(rawValue: UInt8)",
+                    "type" : "init"
+                  },
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/typeoptions\/rawvalue",
+                    "title" : "let rawValue: UInt8",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/typeoptions\/description",
+                        "title" : "var description: String",
+                        "type" : "property"
+                      }
+                    ],
+                    "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/typeoptions\/customstringconvertible-implementations",
+                    "title" : "CustomStringConvertible Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Operators",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/typeoptions\/!=(_:_:)",
+                        "title" : "static func != (Self, Self) -> Bool",
+                        "type" : "op"
+                      }
+                    ],
+                    "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/typeoptions\/equatable-implementations",
+                    "title" : "Equatable Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/typeoptions\/init()",
+                        "title" : "init()",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/typeoptions\/contains(_:)",
+                        "title" : "func contains(Self) -> Bool",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/typeoptions\/formintersection(_:)",
+                        "title" : "func formIntersection(Self)",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/typeoptions\/formsymmetricdifference(_:)",
+                        "title" : "func formSymmetricDifference(Self)",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/typeoptions\/formunion(_:)",
+                        "title" : "func formUnion(Self)",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/typeoptions\/insert(_:)",
+                        "title" : "func insert(Self.Element) -> (inserted: Bool, memberAfterInsert: Self.Element)",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/typeoptions\/intersection(_:)",
+                        "title" : "func intersection(Self) -> Self",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/typeoptions\/remove(_:)",
+                        "title" : "func remove(Self.Element) -> Self.Element?",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/typeoptions\/symmetricdifference(_:)",
+                        "title" : "func symmetricDifference(Self) -> Self",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/typeoptions\/union(_:)",
+                        "title" : "func union(Self) -> Self",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/typeoptions\/update(with:)",
+                        "title" : "func update(with: Self.Element) -> Self.Element?",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/typeoptions\/optionset-implementations",
+                    "title" : "OptionSet Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/typeoptions\/init(_:)",
+                        "title" : "init<S>(S)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/typeoptions\/init(arrayliteral:)",
+                        "title" : "init(arrayLiteral: Self.Element...)",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/typeoptions\/isempty",
+                        "title" : "var isEmpty: Bool",
+                        "type" : "property"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/typeoptions\/isdisjoint(with:)",
+                        "title" : "func isDisjoint(with: Self) -> Bool",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/typeoptions\/isstrictsubset(of:)",
+                        "title" : "func isStrictSubset(of: Self) -> Bool",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/typeoptions\/isstrictsuperset(of:)",
+                        "title" : "func isStrictSuperset(of: Self) -> Bool",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/typeoptions\/issubset(of:)",
+                        "title" : "func isSubset(of: Self) -> Bool",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/typeoptions\/issuperset(of:)",
+                        "title" : "func isSuperset(of: Self) -> Bool",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/typeoptions\/subtract(_:)",
+                        "title" : "func subtract(Self)",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/typeoptions\/subtracting(_:)",
+                        "title" : "func subtracting(Self) -> Self",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/typeoptions\/setalgebra-implementations",
+                    "title" : "SetAlgebra Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/typeoptions",
+                "title" : "PhysicalPacketHeader.TypeOptions",
+                "type" : "struct"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/blocktype",
+                "title" : "var blockType: BlockType",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/datalength",
+                "title" : "var dataLength: UInt",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/dataproperty",
+                "title" : "var dataProperty: UInt32",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/datatype",
+                "title" : "var dataType: PhysicalPacketHeader.TypeOptions",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/duration",
+                "title" : "var duration: UInt",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/flag",
+                "title" : "var flag: PhysicalPacketHeader.FlagOptions",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/senddate",
+                "title" : "var sendDate: Date",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/timestamp",
+                "title" : "var timeStamp: UInt32",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/version",
+                "title" : "var version: UInt",
+                "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/description",
+                    "title" : "var description: String",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/packetprotocol\/physicalpacketheader\/customstringconvertible-implementations",
+                "title" : "CustomStringConvertible Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/packetprotocol\/physicalpacketheader",
+            "title" : "PhysicalPacketHeader",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Structures",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Initializers",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/flagoptions\/init(rawvalue:)",
+                    "title" : "init(rawValue: UInt8)",
+                    "type" : "init"
+                  },
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/flagoptions\/rawvalue",
+                    "title" : "let rawValue: UInt8",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/flagoptions\/description",
+                        "title" : "var description: String",
+                        "type" : "property"
+                      }
+                    ],
+                    "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/flagoptions\/customstringconvertible-implementations",
+                    "title" : "CustomStringConvertible Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Operators",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/flagoptions\/!=(_:_:)",
+                        "title" : "static func != (Self, Self) -> Bool",
+                        "type" : "op"
+                      }
+                    ],
+                    "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/flagoptions\/equatable-implementations",
+                    "title" : "Equatable Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/flagoptions\/init()",
+                        "title" : "init()",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/flagoptions\/contains(_:)",
+                        "title" : "func contains(Self) -> Bool",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/flagoptions\/formintersection(_:)",
+                        "title" : "func formIntersection(Self)",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/flagoptions\/formsymmetricdifference(_:)",
+                        "title" : "func formSymmetricDifference(Self)",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/flagoptions\/formunion(_:)",
+                        "title" : "func formUnion(Self)",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/flagoptions\/insert(_:)",
+                        "title" : "func insert(Self.Element) -> (inserted: Bool, memberAfterInsert: Self.Element)",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/flagoptions\/intersection(_:)",
+                        "title" : "func intersection(Self) -> Self",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/flagoptions\/remove(_:)",
+                        "title" : "func remove(Self.Element) -> Self.Element?",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/flagoptions\/symmetricdifference(_:)",
+                        "title" : "func symmetricDifference(Self) -> Self",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/flagoptions\/union(_:)",
+                        "title" : "func union(Self) -> Self",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/flagoptions\/update(with:)",
+                        "title" : "func update(with: Self.Element) -> Self.Element?",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/flagoptions\/optionset-implementations",
+                    "title" : "OptionSet Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/flagoptions\/init(_:)",
+                        "title" : "init<S>(S)",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/flagoptions\/init(arrayliteral:)",
+                        "title" : "init(arrayLiteral: Self.Element...)",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/flagoptions\/isempty",
+                        "title" : "var isEmpty: Bool",
+                        "type" : "property"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/flagoptions\/isdisjoint(with:)",
+                        "title" : "func isDisjoint(with: Self) -> Bool",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/flagoptions\/isstrictsubset(of:)",
+                        "title" : "func isStrictSubset(of: Self) -> Bool",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/flagoptions\/isstrictsuperset(of:)",
+                        "title" : "func isStrictSuperset(of: Self) -> Bool",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/flagoptions\/issubset(of:)",
+                        "title" : "func isSubset(of: Self) -> Bool",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/flagoptions\/issuperset(of:)",
+                        "title" : "func isSuperset(of: Self) -> Bool",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/flagoptions\/subtract(_:)",
+                        "title" : "func subtract(Self)",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/flagoptions\/subtracting(_:)",
+                        "title" : "func subtracting(Self) -> Self",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/flagoptions\/setalgebra-implementations",
+                    "title" : "SetAlgebra Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/flagoptions",
+                "title" : "SensorPacketHeader.FlagOptions",
+                "type" : "struct"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/blocktype",
+                "title" : "var blockType: BlockType",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/collectionid",
+                "title" : "var collectionID: UInt8",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/dataformat",
+                "title" : "var dataFormat: UInt8",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/datalength",
+                "title" : "var dataLength: UInt16",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/datasubtype",
+                "title" : "var dataSubtype: UInt8",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/dataunit",
+                "title" : "var dataUnit: SensorPacketHeader.DataUint",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/flag",
+                "title" : "var flag: SensorPacketHeader.FlagOptions",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/reserved",
+                "title" : "var reserved: UInt8",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/samplecount",
+                "title" : "var sampleCount: UInt16",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/samplerate",
+                "title" : "var sampleRate: UInt16",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/senddate",
+                "title" : "var sendDate: Date",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/senesortype",
+                "title" : "var senesorType: SensorType",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/timestamp",
+                "title" : "var timeStamp: UInt64",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/unitnumber",
+                "title" : "var unitNumber: Int",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/version",
+                "title" : "var version: UInt8",
+                "type" : "property"
+              },
+              {
+                "title" : "Enumerations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Enumeration Cases",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/datauint\/int16",
+                    "title" : "case int16",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/datauint\/int32",
+                    "title" : "case int32",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/datauint\/uint16",
+                    "title" : "case uint16",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/datauint\/uint32",
+                    "title" : "case uint32",
+                    "type" : "case"
+                  },
+                  {
+                    "title" : "Initializers",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/datauint\/init(rawvalue:)",
+                    "title" : "init?(rawValue: Int)",
+                    "type" : "init"
+                  },
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/datauint\/description",
+                        "title" : "var description: String",
+                        "type" : "property"
+                      }
+                    ],
+                    "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/datauint\/customstringconvertible-implementations",
+                    "title" : "CustomStringConvertible Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Operators",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/datauint\/!=(_:_:)",
+                        "title" : "static func != (Self, Self) -> Bool",
+                        "type" : "op"
+                      }
+                    ],
+                    "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/datauint\/equatable-implementations",
+                    "title" : "Equatable Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/datauint\/hashvalue",
+                        "title" : "var hashValue: Int",
+                        "type" : "property"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/datauint\/hash(into:)",
+                        "title" : "func hash(into: inout Hasher)",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/datauint\/rawrepresentable-implementations",
+                    "title" : "RawRepresentable Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/datauint",
+                "title" : "SensorPacketHeader.DataUint",
+                "type" : "enum"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/description",
+                    "title" : "var description: String",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/packetprotocol\/sensorpacketheader\/customstringconvertible-implementations",
+                "title" : "CustomStringConvertible Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/packetprotocol\/sensorpacketheader",
+            "title" : "SensorPacketHeader",
+            "type" : "struct"
+          },
+          {
+            "title" : "Variables",
+            "type" : "groupMarker"
+          },
+          {
+            "path" : "\/documentation\/packetprotocol\/block_type_physical",
+            "title" : "var BLOCK_TYPE_PHYSICAL: BlockType",
+            "type" : "var"
+          },
+          {
+            "path" : "\/documentation\/packetprotocol\/block_type_sensor",
+            "title" : "var BLOCK_TYPE_SENSOR: BlockType",
+            "type" : "var"
+          },
+          {
+            "path" : "\/documentation\/packetprotocol\/sensor_type_ecg",
+            "title" : "var SENSOR_TYPE_ECG: SensorType",
+            "type" : "var"
+          },
+          {
+            "title" : "Type Aliases",
+            "type" : "groupMarker"
+          },
+          {
+            "path" : "\/documentation\/packetprotocol\/blocktype",
+            "title" : "BlockType",
+            "type" : "typealias"
+          },
+          {
+            "path" : "\/documentation\/packetprotocol\/sensortype",
+            "title" : "SensorType",
+            "type" : "typealias"
+          }
+        ],
+        "path" : "\/documentation\/packetprotocol",
+        "title" : "PacketProtocol",
+        "type" : "module"
+      }
+    ]
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 1,
+    "patch" : 0
+  }
+}

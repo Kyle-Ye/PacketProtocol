@@ -1,0 +1,199 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/PacketProtocol\/documentation\/PacketProtocol"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/BLOCK_TYPE_SENSOR"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:14PacketProtocol17BLOCK_TYPE_SENSORs5UInt8Vvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "BLOCK_TYPE_SENSOR"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:14PacketProtocol9BlockTypea",
+        "text" : "BlockType"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "PacketProtocol"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Global Variable",
+    "symbolKind" : "var",
+    "title" : "BLOCK_TYPE_SENSOR"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "BLOCK_TYPE_SENSOR"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/BlockType",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:14PacketProtocol9BlockTypea",
+              "text" : "BlockType"
+            },
+            {
+              "kind" : "text",
+              "text" : " { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/packetprotocol\/block_type_sensor"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://PacketProtocol/documentation/PacketProtocol": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/PacketProtocol\/documentation\/PacketProtocol",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "PacketProtocol",
+  "type" : "topic",
+  "url" : "\/documentation\/packetprotocol"
+},
+"doc://PacketProtocol/documentation/PacketProtocol/BLOCK_TYPE_SENSOR": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BLOCK_TYPE_SENSOR"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14PacketProtocol9BlockTypea",
+      "text" : "BlockType"
+    }
+  ],
+  "identifier" : "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/BLOCK_TYPE_SENSOR",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "BLOCK_TYPE_SENSOR",
+  "type" : "topic",
+  "url" : "\/documentation\/packetprotocol\/block_type_sensor"
+},
+"doc://PacketProtocol/documentation/PacketProtocol/BlockType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BlockType"
+    }
+  ],
+  "identifier" : "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/BlockType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BlockType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BlockType",
+  "type" : "topic",
+  "url" : "\/documentation\/packetprotocol\/blocktype"
+}
+}
+}

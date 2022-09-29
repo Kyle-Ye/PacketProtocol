@@ -1,0 +1,794 @@
+{
+  "abstract" : [
+    {
+      "text" : "The Physical Packet Header",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "10 bytes \/ 80 bits in total",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/PacketProtocol\/documentation\/PacketProtocol"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/PhysicalPacketHeader"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:14PacketProtocol08PhysicalA6HeaderV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "PhysicalPacketHeader"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "PacketProtocol"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "PhysicalPacketHeader"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "PhysicalPacketHeader"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "PhysicalPacketHeader"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "items" : [
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "blockType         1 byte",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "flagVersion       1 byte",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                },
+                {
+                  "items" : [
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "text" : "flag          4 bit",
+                              "type" : "text"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "text" : "reserved  2 bit",
+                              "type" : "text"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "text" : "version 2 bit",
+                              "type" : "text"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    }
+                  ],
+                  "type" : "unorderedList"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "timeStamp        4 byte",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                },
+                {
+                  "items" : [
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "text" : "_1            16 bit",
+                              "type" : "text"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "text" : "_2            16 bit",
+                              "type" : "text"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    }
+                  ],
+                  "type" : "unorderedList"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "dataProperty     4 byte",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                },
+                {
+                  "items" : [
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "text" : "dataType 10 bit",
+                              "type" : "text"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "text" : "duration   12 bit",
+                              "type" : "text"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "text" : "length       10 bit",
+                              "type" : "text"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    }
+                  ],
+                  "type" : "unorderedList"
+                }
+              ]
+            }
+          ],
+          "type" : "unorderedList"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/PacketProtocol\/s23CustomStringConvertibleP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/PhysicalPacketHeader\/FlagOptions",
+        "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/PhysicalPacketHeader\/TypeOptions"
+      ],
+      "title" : "Structures"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/PhysicalPacketHeader\/blockType",
+        "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/PhysicalPacketHeader\/dataLength",
+        "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/PhysicalPacketHeader\/dataProperty",
+        "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/PhysicalPacketHeader\/dataType",
+        "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/PhysicalPacketHeader\/duration",
+        "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/PhysicalPacketHeader\/flag",
+        "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/PhysicalPacketHeader\/sendDate",
+        "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/PhysicalPacketHeader\/timeStamp",
+        "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/PhysicalPacketHeader\/version"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/PhysicalPacketHeader\/CustomStringConvertible-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/packetprotocol\/physicalpacketheader"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://PacketProtocol/documentation/PacketProtocol": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/PacketProtocol\/documentation\/PacketProtocol",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "PacketProtocol",
+  "type" : "topic",
+  "url" : "\/documentation\/packetprotocol"
+},
+"doc://PacketProtocol/documentation/PacketProtocol/PhysicalPacketHeader": {
+  "abstract" : [
+    {
+      "text" : "The Physical Packet Header",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "10 bytes \/ 80 bits in total",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PhysicalPacketHeader"
+    }
+  ],
+  "identifier" : "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/PhysicalPacketHeader",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PhysicalPacketHeader"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PhysicalPacketHeader",
+  "type" : "topic",
+  "url" : "\/documentation\/packetprotocol\/physicalpacketheader"
+},
+"doc://PacketProtocol/documentation/PacketProtocol/PhysicalPacketHeader/CustomStringConvertible-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/PhysicalPacketHeader\/CustomStringConvertible-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "CustomStringConvertible Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/packetprotocol\/physicalpacketheader\/customstringconvertible-implementations"
+},
+"doc://PacketProtocol/documentation/PacketProtocol/PhysicalPacketHeader/FlagOptions": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FlagOptions"
+    }
+  ],
+  "identifier" : "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/PhysicalPacketHeader\/FlagOptions",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FlagOptions"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PhysicalPacketHeader.FlagOptions",
+  "type" : "topic",
+  "url" : "\/documentation\/packetprotocol\/physicalpacketheader\/flagoptions"
+},
+"doc://PacketProtocol/documentation/PacketProtocol/PhysicalPacketHeader/TypeOptions": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TypeOptions"
+    }
+  ],
+  "identifier" : "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/PhysicalPacketHeader\/TypeOptions",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TypeOptions"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PhysicalPacketHeader.TypeOptions",
+  "type" : "topic",
+  "url" : "\/documentation\/packetprotocol\/physicalpacketheader\/typeoptions"
+},
+"doc://PacketProtocol/documentation/PacketProtocol/PhysicalPacketHeader/blockType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "blockType"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14PacketProtocol9BlockTypea",
+      "text" : "BlockType"
+    }
+  ],
+  "identifier" : "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/PhysicalPacketHeader\/blockType",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "blockType",
+  "type" : "topic",
+  "url" : "\/documentation\/packetprotocol\/physicalpacketheader\/blocktype"
+},
+"doc://PacketProtocol/documentation/PacketProtocol/PhysicalPacketHeader/dataLength": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dataLength"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Su",
+      "text" : "UInt"
+    }
+  ],
+  "identifier" : "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/PhysicalPacketHeader\/dataLength",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "dataLength",
+  "type" : "topic",
+  "url" : "\/documentation\/packetprotocol\/physicalpacketheader\/datalength"
+},
+"doc://PacketProtocol/documentation/PacketProtocol/PhysicalPacketHeader/dataProperty": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dataProperty"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt32V",
+      "text" : "UInt32"
+    }
+  ],
+  "identifier" : "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/PhysicalPacketHeader\/dataProperty",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "dataProperty",
+  "type" : "topic",
+  "url" : "\/documentation\/packetprotocol\/physicalpacketheader\/dataproperty"
+},
+"doc://PacketProtocol/documentation/PacketProtocol/PhysicalPacketHeader/dataType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dataType"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14PacketProtocol08PhysicalA6HeaderV",
+      "text" : "PhysicalPacketHeader"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14PacketProtocol08PhysicalA6HeaderV11TypeOptionsV",
+      "text" : "TypeOptions"
+    }
+  ],
+  "identifier" : "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/PhysicalPacketHeader\/dataType",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "dataType",
+  "type" : "topic",
+  "url" : "\/documentation\/packetprotocol\/physicalpacketheader\/datatype"
+},
+"doc://PacketProtocol/documentation/PacketProtocol/PhysicalPacketHeader/duration": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "duration"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Su",
+      "text" : "UInt"
+    }
+  ],
+  "identifier" : "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/PhysicalPacketHeader\/duration",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "duration",
+  "type" : "topic",
+  "url" : "\/documentation\/packetprotocol\/physicalpacketheader\/duration"
+},
+"doc://PacketProtocol/documentation/PacketProtocol/PhysicalPacketHeader/flag": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "flag"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14PacketProtocol08PhysicalA6HeaderV",
+      "text" : "PhysicalPacketHeader"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14PacketProtocol08PhysicalA6HeaderV11FlagOptionsV",
+      "text" : "FlagOptions"
+    }
+  ],
+  "identifier" : "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/PhysicalPacketHeader\/flag",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "flag",
+  "type" : "topic",
+  "url" : "\/documentation\/packetprotocol\/physicalpacketheader\/flag"
+},
+"doc://PacketProtocol/documentation/PacketProtocol/PhysicalPacketHeader/sendDate": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sendDate"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DateV",
+      "text" : "Date"
+    }
+  ],
+  "identifier" : "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/PhysicalPacketHeader\/sendDate",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "sendDate",
+  "type" : "topic",
+  "url" : "\/documentation\/packetprotocol\/physicalpacketheader\/senddate"
+},
+"doc://PacketProtocol/documentation/PacketProtocol/PhysicalPacketHeader/timeStamp": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "timeStamp"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt32V",
+      "text" : "UInt32"
+    }
+  ],
+  "identifier" : "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/PhysicalPacketHeader\/timeStamp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "timeStamp",
+  "type" : "topic",
+  "url" : "\/documentation\/packetprotocol\/physicalpacketheader\/timestamp"
+},
+"doc://PacketProtocol/documentation/PacketProtocol/PhysicalPacketHeader/version": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "version"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Su",
+      "text" : "UInt"
+    }
+  ],
+  "identifier" : "doc:\/\/PacketProtocol\/documentation\/PacketProtocol\/PhysicalPacketHeader\/version",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "version",
+  "type" : "topic",
+  "url" : "\/documentation\/packetprotocol\/physicalpacketheader\/version"
+},
+"doc://PacketProtocol/s23CustomStringConvertibleP": {
+  "identifier" : "doc:\/\/PacketProtocol\/s23CustomStringConvertibleP",
+  "title" : "Swift.CustomStringConvertible",
+  "type" : "unresolvable"
+}
+}
+}
