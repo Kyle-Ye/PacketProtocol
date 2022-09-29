@@ -42,7 +42,7 @@ swift package \
     generate-documentation \
     --target PacketProtocol \
     --disable-indexing \
-    --hosting-base-path swift-markdown \
+    --hosting-base-path PacketProtocol \
     --output-path "$PACKETPROTOCOL_ROOT/gh-pages/docs"
 
 # Save the current commit we've just built documentation from in a variable

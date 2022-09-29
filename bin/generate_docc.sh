@@ -12,5 +12,4 @@ swift package \
     generate-documentation \
     --target PacketProtocol \
     --disable-indexing \
-    --hosting-base-path packetprotocol \
     --output-path "$PACKETPROTOCOL_ROOT/docs"
